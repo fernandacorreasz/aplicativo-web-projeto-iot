@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="column1">
+    <app-sidebar></app-sidebar>
+
+  </div>
+  <div class="column">
+    <div class="menu">
+      <button class="button-menu">CATEGORIA</button>
+
+      <button class="button-menu">DEVOLUÇÃO</button>
+    </div>
+
+    <div class="catalogo-grid">
+      <div class="catalogo-item" *ngFor="let componentes of componentes">
+        <img style="width: 34%; border-radius: 40px;" [src]="componentes.foto" alt="Foto do equipamento">
+        <h3 class="title">{{ componentes.nome }}</h3>
+        <p class="title"> Categoria: {{ componentes.categoria }}</p>
+        <p class="title">Unidades disponíveis: {{ componentes.unidadesDisponiveis }}</p>
+
+        <button class="button-modal">reservar</button>
+        <button class="button-modal">detalhe</button>
+      </div>
+    </div>
+
+
+  </div>
+</div>

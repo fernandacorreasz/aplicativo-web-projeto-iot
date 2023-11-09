@@ -1,0 +1,154 @@
+[
+  {
+    "nome": "Placa Mega 2560 R3",
+    "foto": "assets/img/001-arduino-mega.png",
+    "descricao": "Nesta placa você encontrará as principais funcionalidades das placas Arduino, incluindo 54 pinos digitais de entrada ou saída e 16 entradas analógicas.",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "10",
+    "quantidadesReservadas": "05"
+  },
+  {
+    "nome": "Placa Nano V3 ",
+    "foto": "assets/img/002-placa-nano.png",
+    "descricao": "Descrição do  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi 4 4GB",
+    "foto": "assets/img/004-Raspberry.png",
+    "descricao": "Descrição equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Kit Arduino",
+    "foto": "assets/img/002-placa-nano.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi Zero ",
+    "foto": "assets/img/003-Raspberry Pi.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Placa Mega 2560 R3",
+    "foto": "assets/img/001-arduino-mega.png",
+    "descricao": "Nesta placa você encontrará as principais funcionalidades das placas Arduino, incluindo 54 pinos digitais de entrada ou saída e 16 entradas analógicas.",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "10",
+    "quantidadesReservadas": "05"
+  },
+  {
+    "nome": "Placa Nano V3 ",
+    "foto": "assets/img/002-placa-nano.png",
+    "descricao": "Descrição do  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi 4 4GB",
+    "foto": "assets/img/004-Raspberry.png",
+    "descricao": "Descrição equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Kit Arduino",
+    "foto": "assets/img/002-placa-nano.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi Zero ",
+    "foto": "assets/img/003-Raspberry Pi.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Placa Nano V3 ",
+    "foto": "assets/img/002-placa-nano.png",
+    "descricao": "Descrição do  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi 4 4GB",
+    "foto": "assets/img/004-Raspberry.png",
+    "descricao": "Descrição equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Kit Arduino",
+    "foto": "assets/img/002-placa-nano.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi Zero ",
+    "foto": "assets/img/003-Raspberry Pi.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi Zero ",
+    "foto": "assets/img/003-Raspberry Pi.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Placa Nano V3 ",
+    "foto": "assets/img/002-placa-nano.png",
+    "descricao": "Descrição do  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi 4 4GB",
+    "foto": "assets/img/004-Raspberry.png",
+    "descricao": "Descrição equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Kit Arduino",
+    "foto": "assets/img/002-placa-nano.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  },
+  {
+    "nome": "Raspberry Pi Zero ",
+    "foto": "assets/img/003-Raspberry Pi.png",
+    "descricao": "Descrição  equipamento",
+    "categoria": "Arduino",
+    "unidadesDisponiveis": "05",
+    "quantidadesReservadas": "02"
+  }
+]

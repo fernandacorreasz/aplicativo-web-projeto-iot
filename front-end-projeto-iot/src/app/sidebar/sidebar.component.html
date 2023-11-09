@@ -1,0 +1,32 @@
+<div class="sidebar">
+
+  <header class="header-sizebar"><div>oi</div></header>
+
+  <ul class="menu-sizebar">
+    <li>
+      <button class="list"  [ngClass]="{'active': isActive}" data-active="0" [routerLink]="['/dashboard']">
+        <div class="icon">
+          <i class="bx bx-list-ul"></i>
+        </div>
+        <span>Dashboard</span>
+      </button>
+
+    </li>
+    <li>
+      <button class="association" data-active="1" [routerLink]="['/list-device']">
+        <div class="icon">
+          <i class='bx bx-copy-alt'></i>
+        </div>
+        <span class="create-device">Monitoramento</span>
+      </button>
+    </li>
+    <li>
+      <button  data-active="4">
+        <div class="icon">
+          <i class='bx bx-copy-alt'></i>
+        </div>
+        <span class="create-key">Configuração</span>
+      </button>
+    </li>
+  </ul>
+</div>

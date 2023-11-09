@@ -1,0 +1,49 @@
+<body>
+  <div class="main-login">
+    <div class="right-login">
+      <div class="card-login">
+        <img
+          class="logo"
+          src="../assets/img/wickedbotz.png"
+          alt="descrição da imagem"
+        />
+        <div class="textfield">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            placeholder="contato@catolicasc.edu.com"
+            [(ngModel)]="user.email"
+          />
+        </div>
+        <div class="textfield">
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Senha"
+            [(ngModel)]="user.password"
+          />
+        </div>
+        <div *ngIf="showWarningMessage" class="warning-message">
+          <p class="error">
+            <mat-icon color="warn">warning</mat-icon> Usuário ou senha
+            inválidos.
+          </p>
+        </div>
+
+        <p class="create">
+          <span>Esqueceu sua senha?</span>
+          <span class="link-text">Criar uma senha nova</span>
+        </p>
+        <p class="create">
+          <span>Não tem uma conta? </span>
+          <span (click)="registerUser()" class="link-text">Crie uma! </span>
+        </p>
+        <button type="submit" class="btn-login" (click)="login()">
+          Entrar
+        </button>
+      </div>
+    </div>
+  </div>
+</body>

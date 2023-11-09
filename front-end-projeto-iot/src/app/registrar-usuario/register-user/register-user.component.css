@@ -1,0 +1,235 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+body{
+  background-color: #3a000d !important;
+}
+
+.warning-message p {
+  display: flex;
+  color: red;
+  align-items: center;
+}
+
+.warning-message p mat-icon {
+  margin-right: 5px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+}
+
+.btn-link {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+body {
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.main-login {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login>img {
+  width: 22%;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-left: -18px;
+}
+
+.logo-v2com {
+  width: 30%;
+}
+
+
+.right-login {
+  background-size: cover;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-login {
+  width: 69%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 33px 25px;
+  background: #5d0000;
+  border-radius: 20px;
+  box-shadow: 0px 2px 2px #00000056;
+}
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.textfield>input {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 11px;
+  background: #D9D9D9;
+  color: #606366;
+  font-size: 12px;
+  box-shadow: 0px 4px 4px #36363656;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield>label {
+  color: #4b4b4bde;
+  margin-bottom: 10px;
+}
+
+.textfield>input::placeholder {
+  color: #606366;
+  font-size: 12px;
+}
+
+.btn-login {
+  width: 49%;
+  padding: 8px 0;
+  margin: 25px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  letter-spacing: 3px;
+  color: #fff;
+  background: linear-gradient(180deg, #3a000d 0%, rgba(157, 0, 0, 0.52) 100%);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 950px) {
+  .card-login {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-login {
+    flex-direction: column;
+  }
+
+  .left-login>img {
+    display: none;
+  }
+
+  .left-login {
+    width: 100%;
+    height: auto;
+
+  }
+
+  .right-login {
+    width: 100%;
+    height: auto;
+
+  }
+
+  .left-login-image {
+    width: 40vh;
+  }
+
+  .card-login {
+    width: 90%;
+  }
+}
+.link-text {
+  color: red;
+  cursor: pointer;
+}
+.create{
+  font-size: 10px;
+  color: rgb(53, 53, 53);
+}
+
+.form-title{
+color: #fff;
+padding: 10px;
+margin-bottom:2%;
+}
+
+form{
+  height: 400px;
+}
+.mat-dialog-container .conteiner {
+  max-width: 200px !important;
+  margin: 0 auto !important;
+  overflow-y: auto !important;
+  max-height: 200px !important; /* Defina a altura máxima desejada para o scroll */
+  width: 30% !important;
+}
+.custom-tooltip {
+  background-color: #ff0000; /* Cor de fundo personalizada */
+  color: #ffffff; /* Cor do texto personalizada */
+  /* Outros estilos personalizados */
+}
+.error-message {
+  color: red;
+}
+.confirmar{
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 600;
+  box-shadow: brown;
+  margin-left: 27%;
+  border: none;
+  color: #4e0000;
+
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+ }

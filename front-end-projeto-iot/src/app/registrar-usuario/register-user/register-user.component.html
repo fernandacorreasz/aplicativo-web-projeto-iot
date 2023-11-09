@@ -1,0 +1,81 @@
+<body>
+  <div class="main-login">
+    <div class="right-login">
+
+      <div class="card-login">
+        <img class="logo" src="../assets/img/wickedbotz.png" alt="descrição da imagem" />
+        <form>
+
+          <label class="form-title">
+            Usuario:
+            <!-- Exemplo de campo com a diretiva ngModel -->
+            <input type="text" [(ngModel)]="userData.username" name="username" required
+              matTooltip="Username é obrigatório" matTooltipClass="custom-tooltip" matTooltipPosition="below">
+
+          </label>
+          <br>   <br>
+          <label class="form-title">
+            Matricula:
+            <input type="text" [(ngModel)]="userData.matricula" name="matricula" required
+              matTooltip="matricula é obrigatório" matTooltipPosition="below">
+          </label>
+          <br>   <br>
+          <label class="form-title">
+            Nome:
+            <input type="text" [(ngModel)]="userData.nome" name="nome" required matTooltip="nome é obrigatório"
+              matTooltipPosition="below">
+          </label>
+          <br>   <br>
+          <label class="form-title">
+            Sobrenome:
+            <input type="text" [(ngModel)]="userData.sobrenome" name="sobrenome" required
+              matTooltip="sobrenome é obrigatório" matTooltipPosition="below">
+          </label>
+          <br>   <br>
+          <label class="form-title">
+            Email:
+            <input type="email" [(ngModel)]="userData.emailAddress" name="email" required
+              matTooltip="emailAddress é obrigatório" matTooltipPosition="below">
+          </label>
+          <br>   <br>
+          <label class="form-title">
+            Senha:
+            <input type="password" [(ngModel)]="userData.password" name="password" required
+              matTooltip="password é obrigatório" matTooltipPosition="below">
+          </label>
+          <br>   <br>
+          <label class="form-title">
+            Curso:
+            <input type="text" [(ngModel)]="userData.curso" name="curso" required matTooltip="curso é obrigatório"
+              matTooltipPosition="below">
+          </label>
+          <br>   <br>
+
+          <label class="form-title">
+            <span >Foto do perfil </span>
+            <input class="foto-input" type="file" (change)="onFotoPerfilChange($event)" accept=".jpg, .jpeg, .png">
+          </label>
+
+          <br>   <br>
+          <button mat-raised-button  class="confirmar" color="primary" (click)="submit()">Confirmar Cadastro</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <!-- ... restante do código ... -->
+
+<div class="modal" *ngIf="showModal">
+  <div class="modal-content">
+    <h2>Cadastro realizado com sucesso!</h2>
+    <p>Redirecionando para a tela de usuário...</p>
+    <div *ngIf="isLoading" class="spinner-container">
+      <mat-spinner diameter="40"></mat-spinner>
+    </div>
+  </div>
+
+</div>
+
+<!-- ... restante do código ... -->
+
+</body>
