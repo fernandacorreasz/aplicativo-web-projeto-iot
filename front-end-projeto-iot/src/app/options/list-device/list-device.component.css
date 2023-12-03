@@ -43,22 +43,77 @@ p{
   color: #000;
 }
 .mat-table{
-  margin-top: 4%;
+  margin-top: 2%;
   width: 100%;
 }
 tr.mat-header-row {
   height: 56px;
-  background: #7126E3;
-  color: #fff;
+  color: rgb(81, 81, 81);
 }
 tr.mat-header-row th{
-  color: #fff;
+  color: #959595;
 }
 .button-menu{
-  background: #bdbdbd;
+  background: #7126e3;
   color: #fff;
   border-radius: 4px;
   padding: 10px;
-  margin-right: 10px;
+  margin-right: 44px;
   border: none;
+  margin-top: 23px;
+  margin-left: 27px;
+  height: 36px;
+}
+
+
+.progress-bar-container {
+  width: 81%;
+  font-size: 10px;
+  height: 17px;
+  color: #bdbdbd;
+  background-color: #c1bebe;
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* Adicione esta linha para centralizar verticalmente */
+}
+
+.progress-bar {
+  display: flex;
+
+}
+
+.progress-bar p{
+  margin-bottom: 1px;
+  margin-left: 57px;
+}
+.table-list {
+  border-collapse: separate;
+  border-spacing: 0 2px;
+  justify-content: center;
+}
+
+ .table-list td {
+  overflow: hidden;
+}
+
+.table-list tr {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  background: transparent;
+}
+.border-right{
+  border-radius: 10px;
+}
+.border-left{
+  border-radius: 10px;
+}
+.mat-elevation-z8{
+  border-radius: 22px;
+}
+.filter{
+  display: flex;
+  justify-content: left;
+}
+.example-full-width{
+
 }

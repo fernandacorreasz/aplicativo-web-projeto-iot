@@ -124,7 +124,7 @@ body * {
   outline: none;
   letter-spacing: 3px;
   color: #fff;
-  background: linear-gradient(180deg, #3a000d 0%, rgba(157, 0, 0, 0.52) 100%);
+  background: linear-gradient(180deg, #8544ff 0%, rgb(33 125 169 / 52%) 100%);
   cursor: pointer;
 }
 
@@ -164,7 +164,7 @@ body * {
   }
 }
 .link-text {
-  color: red;
+  color: rgb(142, 3, 241);
   cursor: pointer;
 }
 .create{

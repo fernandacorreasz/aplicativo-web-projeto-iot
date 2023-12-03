@@ -37,6 +37,8 @@ import { ComponentesComponent } from './options/componentes/componentes.componen
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { ModalConfiComponent } from './registrar-usuario/modal-confi/modal-confi.component';
 import { ListDeviceComponent } from './options/list-device/list-device.component';
+import { ModalLixeiraComponent } from './modal/modal-lixeira/modal-lixeira.component';
+import { InfoLixeiraComponent } from './modal/info-lixeira/info-lixeira.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +51,8 @@ import { ListDeviceComponent } from './options/list-device/list-device.component
     ComponentesComponent,
     ModalConfiComponent,
     ListDeviceComponent,
+    ModalLixeiraComponent,
+    InfoLixeiraComponent,
 
 
   ],

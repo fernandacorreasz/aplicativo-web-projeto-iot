@@ -8,8 +8,7 @@ import { RegisterUserComponent } from './registrar-usuario/register-user/registe
 import { ListDeviceComponent } from './options/list-device/list-device.component';
 
 const routes: Routes = [
-  {path: '', component:  InfoDashComponent},
-  {path: 'LOGIN', component: LoginComponent},
+  {path: '', component: LoginComponent},
   {path: 'dashboard', component: InfoDashComponent},
   {path: 'list-device', component: ListDeviceComponent},
   {path: 'registrar-usuario', component: RegisterUserComponent},

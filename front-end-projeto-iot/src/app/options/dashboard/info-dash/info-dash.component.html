@@ -3,12 +3,56 @@
     <app-sidebar></app-sidebar>
   </div>
   <div class="column">
-    <p>Dashboard</p>
+    <div class="notification">
+      <h4>Monitoramento da Lixeira</h4>
+      <p>Esta tela é para fins de monitoramento. Por favor, use com cuidado.</p>
+    </div>
+
+
     <div class="menu-grafico">
-    <div class="teste">Gráfico 01</div>
-    <div class="teste">Gráfico 02</div>
-    <div class="teste">Gráfico03</div>
+
+      <div class="teste">
+        <div>
+          <p>Informações de Lixeiras Cadastradas</p>
+        </div>
+
+        <canvas #pieChartCanvas id="pieChartCanvas"></canvas>
+
+        <div class="color">
+          <div class="legend">
+            <mat-icon class="mat-icon-custom cheia">fiber_manual_record</mat-icon>
+            <p>Cheia</p>
+          </div>
+          <div class="legend">
+            <mat-icon class="mat-icon-custom medio">fiber_manual_record</mat-icon>
+            <p>Médio</p>
+          </div>
+          <div class="legend">
+            <mat-icon class="mat-icon-custom vazia">fiber_manual_record</mat-icon>
+            <p>Vazia</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="conteiner">
+    <div class="teste1">
+      <div><p>
+       Quantidades de Lixeiras Registradas Anualmente
+      </p></div>
+
+      <canvas class="bar-chart-canvas" #barChartCanvas></canvas>
+    </div>
+
+    <div class="teste1">
+      <div><p>Quantidades de Lixeiras Registradas Mensalmente - 2023</p></div>
+
+      <canvas class="monthly-chart-canvas" #monthlyDevicesChartCanvas></canvas>
+    </div>
   </div>
+
+  </div>
+
+
 
   </div>
   </div>

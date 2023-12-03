@@ -21,27 +21,25 @@ export class LoginComponent implements OnInit {
 
   showWarningMessage = false;
 
-  constructor(private http: HttpClient, private router: Router) { }
-
+  constructor(private router: Router) { }
 
   ngOnInit(): void { }
 
   login(): void {
-    const url = `http://localhost:8080/users/login?emailAddress=${this.user.email}&password=${this.user.password}`;
-    this.http.get(url).subscribe(
-      (response: any) => {
-        // Handle successful login
-        // Store authentication token or user data in local storage or NgRx state
-        console.log(response);
-        this.router.navigate(['/dashboard']); // Replace '/dashboard' with your actual dashboard route
-      },
-      (error: any) => {
-        // Handle login error
-        // Display appropriate error message to the user
-        this.showWarningMessage = true;
-        console.error(error);
-      }
-    );
+
+    const mockUser = {
+      email: 'admin',
+      password: 'admin'
+    };
+
+    if (this.user.email === mockUser.email && this.user.password === mockUser.password) {
+      this.showWarningMessage = false;
+      console.log('Login successful');
+      this.router.navigate(['/dashboard']);
+    } else {
+      this.showWarningMessage = true;
+      console.error('Login failed');
+    }
   }
 
   registerUser(): void {

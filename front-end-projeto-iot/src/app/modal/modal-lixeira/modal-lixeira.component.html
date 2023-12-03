@@ -1,0 +1,21 @@
+<!-- modal-lixeira.component.html -->
+<h2>Cadastrar Lixeira</h2>
+
+<form [formGroup]="lixeiraForm">
+  <mat-form-field>
+    <input matInput formControlName="deviceId" placeholder="Código da Lixeira">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput formControlName="location" placeholder="Localização">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput formControlName="fillLevel" placeholder="Nível Inicial da Lixeira">
+  </mat-form-field>
+
+  <div class="modal-buttons">
+    <button mat-button (click)="fechar()">Cancelar</button>
+    <button mat-button color="primary" (click)="salvar()">Salvar</button>
+  </div>
+</form>
