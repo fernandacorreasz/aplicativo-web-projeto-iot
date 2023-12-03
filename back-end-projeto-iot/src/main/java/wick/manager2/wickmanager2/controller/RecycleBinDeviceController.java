@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -50,4 +51,17 @@ public class RecycleBinDeviceController {
             return ResponseEntity.badRequest().body("Device with the same device_id already exists.");
         }
     }
+
+    @PutMapping("/update-fill-level")
+    public ResponseEntity<String> updateFillLevel(@RequestBody List<RecycleBinDevice> devices) {
+        try {
+            recycleBinDeviceService.updateFillLevel(devices);
+            return ResponseEntity.ok("Fill level updated successfully for all devices.");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Error updating fill level: " + e.getMessage());
+        }
+    }
+
+    
 }
